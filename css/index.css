@@ -45,10 +45,11 @@ body {
     justify-content: space-between;
     width: 500px;
     height: 40px;
+    padding-top: 15-px;
 }
 
 .header-link {
-
+    text-decoration: underline;
 }
 
 .header-link a {
@@ -134,7 +135,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 200px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -143,23 +144,29 @@ body {
 }
 
 .card-image {
-    border-radius: 15px;
+    border-radius: 20px;
     border-style: solid;
     border-color: #3882f6;
     border-width: 5px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 10px;
 }
 
 .content3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-left: 200px;
     padding-right: 200px;
     height: 600px;
     background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .quote {
@@ -169,6 +176,7 @@ body {
     color: #1f2937;
     margin-left: 50px;
     margin-right: 50px;
+    padding-bottom: 10px;
 }
 
 .quoter {
